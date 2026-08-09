@@ -187,3 +187,9 @@ The dataset-loading function uses Streamlit's `@st.cache_data` so the CSV does n
 **Customer Segmentation using K-Means Clustering**
 
 Built as an interactive machine learning application with Streamlit.
+
+### 🚀 Live Demo
+
+👉 **[Try the Customer Segmentation App](https://mallcustomersegmentation-yfgrec3w3n3szynj3y5f3h.streamlit.app/)**
+
+Click the link above to open the deployed application and interact with the customer segmentation model directly.
