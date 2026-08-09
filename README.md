@@ -34,7 +34,7 @@ The project uses `Mall_Customers.csv`, containing **200 customers** and the foll
 | Feature | Range |
 |---|---:|
 | Age | 18 – 70 |
-| Annual Income | 15 – 137 k$ |
+| Annual Income | 15k – 137k ($) |
 | Spending Score | 1 – 99 |
 
 ### 🤖 K-Means Clustering
@@ -104,7 +104,8 @@ mall_customer_segmentation/
 │
 ├── app.py
 ├── Mall_Customers.csv
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 `app.py` contains the complete Streamlit application, while `Mall_Customers.csv` is the dataset used by the application.
@@ -120,6 +121,8 @@ mall_customer_segmentation/
 - **Scikit-learn** — K-Means clustering
 - **Kneed** — automatic knee/elbow point detection
 
+## Installation
+
 ## 1.📦 Clone the repository
 
 ```bash
@@ -133,7 +136,7 @@ cd mall_customer_segmentation
 pip install -r requirements.txt
 ```
 
-## ▶️ Run the Application
+## 3.▶️ Run the Application
 
 ```bash
 streamlit run app.py
